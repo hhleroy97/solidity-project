@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "dev": "node server.js"
+    "start": "npm run test",
+    "dev": "lite-server",
+    "test": "lite-server"
   },
   "author": "",
   "license": "ISC",
