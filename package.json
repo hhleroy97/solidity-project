@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "npm run test",
     "dev": "lite-server",
-    "test": "lite-server"
+    "test": "lite-server",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
   },
   "author": "",
   "license": "ISC",
