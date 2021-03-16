@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Layout from '../../components/layout';
+import Layout from '../components/layout';
 import {Button, Form, Input, Message} from 'semantic-ui-react';
 import factory from '../../ethereum/factory';
 import web3 from '../../ethereum/web3';
